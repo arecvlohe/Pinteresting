@@ -178,3 +178,1180 @@ Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 a
 
 
 Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-29 14:46:47 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 16:55:58 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 330ms (Views: 304.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 16:55:59 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 16:55:59 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 16:58:59 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 16:58:59 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 16:58:59 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 16:58:59 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 16:58:59 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 16:58:59 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-03-30 16:58:59 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 16:58:59 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 16:58:59 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:05:10 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:05:10 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:05:10 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-03-30 17:05:10 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:05:10 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:05:10 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:05:10 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:05:10 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:05:10 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:06:36 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:06:37 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-03-30 17:06:37 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:06:37 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:06:37 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:06:37 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:06:37 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:06:37 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:06:37 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:10:07 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:10:07 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:10:07 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:10:07 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:10:07 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:10:07 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-03-30 17:10:07 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:10:07 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:10:07 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:13:13 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:13:13 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:13:13 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:13:13 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:13:13 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-03-30 17:13:13 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:13:13 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:13:13 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:13:13 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:13:38 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 47ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:13:38 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:13:38 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:13:38 -0400
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-03-30 17:13:38 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:13:38 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:13:38 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:13:38 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:13:38 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:15:09 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 188ms (Views: 187.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:15:10 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:15:10 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:15:10 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:15:10 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:15:10 -0400
+
+
+Started GET "/assets/application-defbc386d1a9813359bcf8383ad6257d.js?body=1" for ::1 at 2015-03-30 17:15:10 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:15:10 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:15:10 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:15:10 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:15:52 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:15:52 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:15:52 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:15:52 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:15:52 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:15:52 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:15:52 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:15:52 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:15:52 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:15:52 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:20:18 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:20:18 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:20:18 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:20:18 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:20:18 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:20:18 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:20:18 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:20:18 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:20:18 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:20:18 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:22:44 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:22:44 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:22:44 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:22:44 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:22:44 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:22:44 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:22:44 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:22:44 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:22:44 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:22:44 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:24:20 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:24:20 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:24:20 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:24:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:24:20 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:24:20 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:24:20 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:24:20 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:24:20 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:24:20 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:30:01 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 2086ms (Views: 2085.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-2dac6e34ec8a071d8284bb5bd96f92da.css?body=1" for ::1 at 2015-03-30 17:30:03 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:30:03 -0400
+
+
+Started GET "/assets/application-f827e676e9c3b427a1213c46c4d820de.css?body=1" for ::1 at 2015-03-30 17:30:03 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:30:03 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:30:03 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:30:03 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:30:03 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:30:03 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:30:03 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:30:13 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 1533ms (Views: 1533.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-eae36bb0370701d3b7fd301e3e5bdc9b.css?body=1" for ::1 at 2015-03-30 17:30:15 -0400
+
+
+Started GET "/assets/application-c0e9e9c85b764722e1fae7aded7da684.css?body=1" for ::1 at 2015-03-30 17:30:15 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:30:15 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:30:15 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:30:15 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:30:15 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:30:15 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:30:15 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:30:15 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:30:46 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 1549ms (Views: 1548.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-689035d88e1efd80e4949338a270d383.css?body=1" for ::1 at 2015-03-30 17:30:48 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:30:48 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:30:48 -0400
+
+
+Started GET "/assets/application-6dd560da737fe4d91b2be719e778cfc6.css?body=1" for ::1 at 2015-03-30 17:30:48 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:30:48 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:30:48 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:30:48 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:30:48 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:30:48 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:33:47 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1409ms (Views: 1408.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-44ec23a632d3be662854b1b46477bfda.css?body=1" for ::1 at 2015-03-30 17:33:49 -0400
+
+
+Started GET "/assets/application-728331ef57a0e3f4df3003bcb0ed85a6.css?body=1" for ::1 at 2015-03-30 17:33:49 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:33:49 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:33:49 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:33:49 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:33:49 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:33:49 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:33:49 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:33:49 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:34:08 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (Invalid CSS after "...ult-bg: #f1c40f": expected selector or at-rule, was "@import 'bootst..."
+  (in /Users/Adam/Desktop/pinteresting/app/assets/stylesheets/bootstrap_and_custom.css.scss:4)):
+     5:   <meta charset="utf-8">
+     6:   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     7:   <meta name="viewport" content="width=device-width, initial-scale=1">
+     8:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: </head>
+  app/assets/stylesheets/bootstrap_and_custom.css.scss:4
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1266625287984833255_70194749406140'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.6ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (62.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (140.6ms)
+
+
+Started GET "/" for ::1 at 2015-03-30 17:34:19 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1476ms (Views: 1475.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-b6d4a13f7cadd51ffec241f6f5b4e266.css?body=1" for ::1 at 2015-03-30 17:34:20 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:34:20 -0400
+
+
+Started GET "/assets/application-a5f1ee035b98b1ae4380c765e1984dc0.css?body=1" for ::1 at 2015-03-30 17:34:20 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:34:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:34:20 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:34:20 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:34:20 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:34:20 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:34:20 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:36:48 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1457ms (Views: 1457.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-06d7b3ce7beb45c7fab76aa9da9174e3.css?body=1" for ::1 at 2015-03-30 17:36:49 -0400
+
+
+Started GET "/assets/application-c74fd056b3db76e407efd602d46fd22b.css?body=1" for ::1 at 2015-03-30 17:36:49 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:36:49 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:36:49 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:36:49 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:36:49 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:36:49 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:36:49 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:36:49 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:37:13 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1394ms (Views: 1393.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-3fae810edbe845407a1af86ee93e7d22.css?body=1" for ::1 at 2015-03-30 17:37:14 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:37:14 -0400
+
+
+Started GET "/assets/application-d055778aac97cde863c061182db95ac8.css?body=1" for ::1 at 2015-03-30 17:37:14 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:37:14 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:37:14 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:37:14 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:37:14 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:37:14 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:37:14 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:38:17 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1379ms (Views: 1378.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-bb65fe488782e82a7ec0107491b7f0c5.css?body=1" for ::1 at 2015-03-30 17:38:19 -0400
+
+
+Started GET "/assets/application-ab87e6be6a8a1d13f11d00f09e37892e.css?body=1" for ::1 at 2015-03-30 17:38:19 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:38:19 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:38:19 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:38:19 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:38:19 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:38:19 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:38:19 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:38:19 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:39:21 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (Invalid CSS after "...nk-color : #fff": expected selector or at-rule, was "@import 'bootst..."
+  (in /Users/Adam/Desktop/pinteresting/app/assets/stylesheets/bootstrap_and_custom.css.scss:5)):
+     5:   <meta charset="utf-8">
+     6:   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     7:   <meta name="viewport" content="width=device-width, initial-scale=1">
+     8:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: </head>
+  app/assets/stylesheets/bootstrap_and_custom.css.scss:5
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1266625287984833255_70194749406140'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (55.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (125.4ms)
+
+
+Started GET "/" for ::1 at 2015-03-30 17:39:28 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1371ms (Views: 1371.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-f3ea47e33245b747bae9e9bc9286d56c.css?body=1" for ::1 at 2015-03-30 17:39:29 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:39:29 -0400
+
+
+Started GET "/assets/application-e3e8b71242ea110c4f6cee443abf9615.css?body=1" for ::1 at 2015-03-30 17:39:29 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:39:29 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:39:29 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:39:29 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:39:29 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:39:29 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:39:29 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:40:46 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1466ms (Views: 1465.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-f3ea47e33245b747bae9e9bc9286d56c.css?body=1" for ::1 at 2015-03-30 17:40:47 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:40:47 -0400
+
+
+Started GET "/assets/application-e3e8b71242ea110c4f6cee443abf9615.css?body=1" for ::1 at 2015-03-30 17:40:47 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:40:47 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:40:47 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:40:47 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:40:47 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:40:47 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:40:47 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:42:00 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 56ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-f3ea47e33245b747bae9e9bc9286d56c.css?body=1" for ::1 at 2015-03-30 17:42:00 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:42:00 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:42:00 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:42:00 -0400
+
+
+Started GET "/assets/application-e3e8b71242ea110c4f6cee443abf9615.css?body=1" for ::1 at 2015-03-30 17:42:00 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:42:00 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:42:00 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:42:00 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:42:00 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:43:32 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-f3ea47e33245b747bae9e9bc9286d56c.css?body=1" for ::1 at 2015-03-30 17:43:32 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:43:32 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:43:32 -0400
+
+
+Started GET "/assets/application-e3e8b71242ea110c4f6cee443abf9615.css?body=1" for ::1 at 2015-03-30 17:43:32 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:43:32 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:43:32 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:43:32 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:43:32 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:43:32 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:47:40 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1387ms (Views: 1386.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:47:41 -0400
+
+
+Started GET "/assets/application-e3e8b71242ea110c4f6cee443abf9615.css?body=1" for ::1 at 2015-03-30 17:47:41 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:47:41 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:47:41 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:47:41 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:47:41 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-f3ea47e33245b747bae9e9bc9286d56c.css?body=1" for ::1 at 2015-03-30 17:47:41 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:47:41 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:47:41 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:50:28 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 1529ms (Views: 1528.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-0b776c6a7eaa616a631ae96fae628842.css?body=1" for ::1 at 2015-03-30 17:50:30 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:50:30 -0400
+
+
+Started GET "/assets/application-e15c26c0bcb153f3c8294a73be47eae9.css?body=1" for ::1 at 2015-03-30 17:50:30 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:50:30 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:50:30 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:50:30 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:50:30 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:50:30 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:50:30 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:53:03 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1455ms (Views: 1454.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e1d8e33e1da2787a32c629f7ac3999a3.css?body=1" for ::1 at 2015-03-30 17:53:05 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:53:05 -0400
+
+
+Started GET "/assets/application-03a21d0cc4a86bcd02df9c8543fa1e71.css?body=1" for ::1 at 2015-03-30 17:53:05 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:53:05 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:53:05 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:53:05 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:53:05 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:53:05 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:53:05 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:53:42 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (Invalid CSS after "...      : #34495e": expected selector or at-rule, was "@import 'bootst..."
+  (in /Users/Adam/Desktop/pinteresting/app/assets/stylesheets/bootstrap_and_custom.css.scss:8)):
+     5:   <meta charset="utf-8">
+     6:   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     7:   <meta name="viewport" content="width=device-width, initial-scale=1">
+     8:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: </head>
+  app/assets/stylesheets/bootstrap_and_custom.css.scss:8
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1266625287984833255_70194749406140'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.9ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (54.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (124.4ms)
+
+
+Started GET "/" for ::1 at 2015-03-30 17:53:50 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1455ms (Views: 1454.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-2b62a2ca975b7c3d276605f48e47169c.css?body=1" for ::1 at 2015-03-30 17:53:51 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:53:51 -0400
+
+
+Started GET "/assets/application-e3d2a3f959d77169c2b933bc419fd072.css?body=1" for ::1 at 2015-03-30 17:53:51 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:53:51 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:53:51 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:53:51 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:53:51 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:53:51 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:53:51 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:54:38 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1457ms (Views: 1456.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-68dd3e85749a2c62a189e16b6c9a8d53.css?body=1" for ::1 at 2015-03-30 17:54:40 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:54:40 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:54:40 -0400
+
+
+Started GET "/assets/application-32c5e76ade38f45754c5068ca90cfc78.css?body=1" for ::1 at 2015-03-30 17:54:40 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:54:40 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:54:40 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:54:40 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:54:40 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:54:40 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:55:04 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1543ms (Views: 1542.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:55:05 -0400
+
+
+Started GET "/assets/application-e3d2a3f959d77169c2b933bc419fd072.css?body=1" for ::1 at 2015-03-30 17:55:05 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:55:05 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:55:05 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:55:05 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:55:05 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:55:05 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:55:05 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-2b62a2ca975b7c3d276605f48e47169c.css?body=1" for ::1 at 2015-03-30 17:55:05 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:55:18 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1478ms (Views: 1477.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-68dd3e85749a2c62a189e16b6c9a8d53.css?body=1" for ::1 at 2015-03-30 17:55:20 -0400
+
+
+Started GET "/assets/application-32c5e76ade38f45754c5068ca90cfc78.css?body=1" for ::1 at 2015-03-30 17:55:20 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:55:20 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:55:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:55:20 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:55:20 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:55:20 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:55:20 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:55:20 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:55:36 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1554ms (Views: 1553.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-258ba74a265e92ea605e5ab796564fe1.css?body=1" for ::1 at 2015-03-30 17:55:38 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:55:38 -0400
+
+
+Started GET "/assets/application-a95e9dd605839a6e2e28b52f92c1ff65.css?body=1" for ::1 at 2015-03-30 17:55:38 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:55:38 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:55:38 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:55:38 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:55:38 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:55:38 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:55:38 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 17:55:50 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 1527ms (Views: 1526.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-68dd3e85749a2c62a189e16b6c9a8d53.css?body=1" for ::1 at 2015-03-30 17:55:51 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 17:55:51 -0400
+
+
+Started GET "/assets/application-32c5e76ade38f45754c5068ca90cfc78.css?body=1" for ::1 at 2015-03-30 17:55:51 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 17:55:51 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 17:55:51 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-03-30 17:55:51 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 17:55:51 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 17:55:51 -0400
+
+
+Started GET "/assets/application-c842a0dfa1ea8039f2814d529228bb81.js?body=1" for ::1 at 2015-03-30 17:55:51 -0400
