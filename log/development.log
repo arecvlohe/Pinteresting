@@ -7214,3 +7214,1481 @@ Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for :
 
 
 Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-18 12:28:39 -0400
+
+
+Started GET "/" for ::1 at 2015-04-18 12:30:29 -0400
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 72ms (Views: 71.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-04-19 12:00:46 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 465ms (Views: 448.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:00:46 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:00:47 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:00:47 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:00:47 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:00:47 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:00:47 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:00:47 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:00:47 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:00:47 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:00:47 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:00:47 -0400
+
+
+Started GET "/users/sign_in" for ::1 at 2015-04-19 12:00:48 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (6.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (173.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 278ms (Views: 265.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-04-19 12:00:50 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nJCu6WGgoOZl/+MEyBe4GnJuFiLrZnEeajO5s3SaNBYgXwMtTvK+AKB8sIGFknoyUwy2ajbHhtoqyeIjWLm7OQ==", "user"=>{"email"=>"adam.recvlohe@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (12.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "adam.recvlohe@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2015-04-18 16:25:51.317843"], ["current_sign_in_at", "2015-04-19 16:00:50.398253"], ["sign_in_count", 10], ["updated_at", "2015-04-19 16:00:50.399682"], ["id", 1]]
+  [1m[36m (3.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 138ms (ActiveRecord: 16.7ms)
+
+
+Started GET "/" for ::1 at 2015-04-19 12:00:50 -0400
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pins/" for ::1 at 2015-04-19 12:00:56 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (21.1ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (55.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 185ms (Views: 113.3ms | ActiveRecord: 21.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttachmentImageToPins (20150419161213)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "pins" ADD "image_file_name" varchar[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "pins" ADD "image_content_type" varchar
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "pins" ADD "image_file_size" integer[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "pins" ADD "image_updated_at" datetime
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150419161213"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_pins_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_pins_on_user_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+
+
+Started GET "/pins/" for ::1 at 2015-04-19 12:19:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (29.8ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 162ms (Views: 148.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:19:22 -0400
+
+
+Started GET "/" for ::1 at 2015-04-19 12:19:32 -0400
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (9.8ms)
+Completed 200 OK in 105ms (Views: 103.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pins/" for ::1 at 2015-04-19 12:19:37 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:19:37 -0400
+
+
+Started GET "/pins/" for ::1 at 2015-04-19 12:21:53 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:21:53 -0400
+
+
+Started GET "/pins/new" for ::1 at 2015-04-19 12:21:56 -0400
+Processing by PinsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pins/_form.html.erb (1.3ms)
+  Rendered pins/new.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 69ms
+
+SyntaxError (/Users/Adam/Documents/Docs/Sites/pinteresting/app/views/pins/_form.html.erb:1: syntax error, unexpected tLABEL
+....append=  form_for(@pin), html: { multipart: true } do |f| @...
+...                               ^
+/Users/Adam/Documents/Docs/Sites/pinteresting/app/views/pins/_form.html.erb:1: syntax error, unexpected keyword_do_block, expecting keyword_end
+...), html: { multipart: true } do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/Adam/Documents/Docs/Sites/pinteresting/app/views/pins/_form.html.erb:28: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/pins/_form.html.erb:1: syntax error, unexpected tLABEL
+  app/views/pins/_form.html.erb:1: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/pins/_form.html.erb:28: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/pins/new.html.erb:3:in `_app_views_pins_new_html_erb__2490646417043187624_70266221423760'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (61.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (149.1ms)
+
+
+Started GET "/pins/new" for ::1 at 2015-04-19 12:21:56 -0400
+Processing by PinsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pins/_form.html.erb (1.3ms)
+  Rendered pins/new.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/Adam/Documents/Docs/Sites/pinteresting/app/views/pins/_form.html.erb:1: syntax error, unexpected tLABEL
+....append=  form_for(@pin), html: { multipart: true } do |f| @...
+...                               ^
+/Users/Adam/Documents/Docs/Sites/pinteresting/app/views/pins/_form.html.erb:1: syntax error, unexpected keyword_do_block, expecting keyword_end
+...), html: { multipart: true } do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/Adam/Documents/Docs/Sites/pinteresting/app/views/pins/_form.html.erb:28: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/pins/_form.html.erb:1: syntax error, unexpected tLABEL
+  app/views/pins/_form.html.erb:1: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/pins/_form.html.erb:28: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/pins/new.html.erb:3:in `_app_views_pins_new_html_erb__2490646417043187624_70266221265600'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (56.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (125.2ms)
+
+
+Started GET "/pins/new" for ::1 at 2015-04-19 12:22:32 -0400
+Processing by PinsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pins/_form.html.erb (49.8ms)
+  Rendered pins/new.html.erb within layouts/application (51.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 117ms (Views: 115.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:22:32 -0400
+
+
+Started GET "/pins/new" for ::1 at 2015-04-19 12:24:30 -0400
+Processing by PinsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pins/_form.html.erb (1.6ms)
+  Rendered pins/new.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 91ms (Views: 67.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:24:31 -0400
+
+
+Started POST "/pins" for ::1 at 2015-04-19 12:24:55 -0400
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LhcfLWi/Aqgjz0drLSoxel59vXm21hbKBlgZ1+tFOL/xUcUbHP0R1ipNMgOHD60BCNJZlWWl3ZE9kbzj/wXkqA==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fd03d5774b0 @tempfile=#<Tempfile:/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/RackMultipart20150419-1037-39voqw.gif>, @original_filename="hand.gif", @content_type="image/gif", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"hand.gif\"\r\nContent-Type: image/gif\r\n">, "description"=>"Hand"}, "commit"=>"Create Pin"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 4ms
+
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+  app/controllers/pins_controller.rb:29:in `create'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.2ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fd03d144d20 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fd03d144730 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fd03d137058 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/pins" for ::1 at 2015-04-19 12:27:08 -0400
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LhcfLWi/Aqgjz0drLSoxel59vXm21hbKBlgZ1+tFOL/xUcUbHP0R1ipNMgOHD60BCNJZlWWl3ZE9kbzj/wXkqA==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fd04078d030 @tempfile=#<Tempfile:/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/RackMultipart20150419-1037-1qy1rh8.gif>, @original_filename="hand.gif", @content_type="image/gif", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"hand.gif\"\r\nContent-Type: image/gif\r\n">, "description"=>"Hand"}, "commit"=>"Create Pin"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 3ms
+
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+  app/controllers/pins_controller.rb:29:in `create'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.8ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fd03d144d20 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fd03d144730 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fd03d137058 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/pins" for ::1 at 2015-04-19 12:28:03 -0400
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LhcfLWi/Aqgjz0drLSoxel59vXm21hbKBlgZ1+tFOL/xUcUbHP0R1ipNMgOHD60BCNJZlWWl3ZE9kbzj/wXkqA==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fd042222a80 @tempfile=#<Tempfile:/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/RackMultipart20150419-1037-lu4l5c.gif>, @original_filename="hand.gif", @content_type="image/gif", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"hand.gif\"\r\nContent-Type: image/gif\r\n">, "description"=>"Hand"}, "commit"=>"Create Pin"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 4ms
+
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+  app/controllers/pins_controller.rb:29:in `create'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.5ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fd03d144d20 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fd03d144730 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fd03d137058 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/pins" for ::1 at 2015-04-19 12:29:16 -0400
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LhcfLWi/Aqgjz0drLSoxel59vXm21hbKBlgZ1+tFOL/xUcUbHP0R1ipNMgOHD60BCNJZlWWl3ZE9kbzj/wXkqA==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fd03d8c9b68 @tempfile=#<Tempfile:/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/RackMultipart20150419-1037-gm30l2.gif>, @original_filename="hand.gif", @content_type="image/gif", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"hand.gif\"\r\nContent-Type: image/gif\r\n">, "description"=>"Hand"}, "commit"=>"Create Pin"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 21ms
+
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+  app/controllers/pins_controller.rb:29:in `create'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.8ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fd03d144d20 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fd03d144730 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fd03d137058 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/pins" for ::1 at 2015-04-19 12:31:29 -0400
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LhcfLWi/Aqgjz0drLSoxel59vXm21hbKBlgZ1+tFOL/xUcUbHP0R1ipNMgOHD60BCNJZlWWl3ZE9kbzj/wXkqA==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fd0425c7ac8 @tempfile=#<Tempfile:/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/RackMultipart20150419-1037-jg4bly.gif>, @original_filename="hand.gif", @content_type="image/gif", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"hand.gif\"\r\nContent-Type: image/gif\r\n">, "description"=>"Hand"}, "commit"=>"Create Pin"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1037-1q8q2cd.gif'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1037-54qtrh.gif'
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered pins/_form.html.erb (3.3ms)
+  Rendered pins/new.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 127ms (Views: 82.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:31:29 -0400
+
+
+Started POST "/pins" for ::1 at 2015-04-19 12:31:41 -0400
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s2sUc4jbw9TDsQ/qz3tuxNZb0cnPyIWN9HhLTJGtIpJsLc5F/JnQqsozeoJlXvK/gPQ1JRy7TtbPse54he3+hQ==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fd03d0fcf20 @tempfile=#<Tempfile:/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/RackMultipart20150419-1037-uf5cod.jpg>, @original_filename="hand.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"hand.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Hand"}, "commit"=>"Create Pin"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1037-1kqz7cv.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1037-p2iseg.jpg[0]' 2>/dev/null
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1037-p2iseg.jpg[0]' 2>/dev/null
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1037-un1zuq.jpg'
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered pins/_form.html.erb (2.4ms)
+  Rendered pins/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 120ms (Views: 64.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:31:42 -0400
+
+
+Started POST "/pins" for ::1 at 2015-04-19 12:33:58 -0400
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s2sUc4jbw9TDsQ/qz3tuxNZb0cnPyIWN9HhLTJGtIpJsLc5F/JnQqsozeoJlXvK/gPQ1JRy7TtbPse54he3+hQ==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fd044809140 @tempfile=#<Tempfile:/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/RackMultipart20150419-1037-8wtv5l.jpg>, @original_filename="hand.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"hand.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Hand"}, "commit"=>"Create Pin"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1037-h637rh.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1037-1yvbfoa.jpg[0]' 2>/dev/null
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1037-1yvbfoa.jpg[0]' 2>/dev/null
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1037-1dk8hbn.jpg'
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered pins/_form.html.erb (3.3ms)
+  Rendered pins/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 117ms (Views: 78.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:33:58 -0400
+
+
+Started POST "/pins" for ::1 at 2015-04-19 12:34:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oTkhdXhAQXxS8zDuGxlbetQxzkMyW0SPkyL2Yf5eCE1+f/tDDAJSAltxRYaxPMcBgp4qr+Eoj9So61NV6h7UWg==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fb2a3bd9108 @tempfile=#<Tempfile:/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/RackMultipart20150419-1173-1mtj10y.jpg>, @original_filename="hand.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"hand.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Hand"}, "commit"=>"Create Pin"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1173-10rnu24.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-1173-gt1qak.jpg[0]' 2>/dev/null
+Completed 500 Internal Server Error in 63ms
+
+Paperclip::Errors::CommandNotFoundError (Could not run the `identify` command. Please install ImageMagick.):
+  app/controllers/pins_controller.rb:29:in `create'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.9ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fb2a3170bf8 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb2a316a050 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb2a3120590 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/pins" for ::1 at 2015-04-19 12:37:03 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oTkhdXhAQXxS8zDuGxlbetQxzkMyW0SPkyL2Yf5eCE1+f/tDDAJSAltxRYaxPMcBgp4qr+Eoj9So61NV6h7UWg==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fa536c2e6c8 @tempfile=#<Tempfile:/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/RackMultipart20150419-2138-dt5zof.jpg>, @original_filename="hand.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"hand.jpg\"\r\nContent-Type: image/jpeg\r\n">, "description"=>"Hand"}, "commit"=>"Create Pin"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-2138-opd472.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-2138-hopkny.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-2138-hopkny.jpg[0]'
+Command :: convert '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-2138-hopkny.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/30cde86c2e9acb8a9e50f01592f539d120150419-2138-1u8kekj'
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/30cde86c2e9acb8a9e50f01592f539d120150419-2138-1u8kekj'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-2138-hopkny.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-2138-hopkny.jpg[0]'
+Command :: convert '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-2138-hopkny.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/30cde86c2e9acb8a9e50f01592f539d120150419-2138-13pr6f3'
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/30cde86c2e9acb8a9e50f01592f539d120150419-2138-13pr6f3'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/573ce5969e9884d49d4fab77b09a306a20150419-2138-pk0rki.jpg'
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "pins" ("description", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["description", "Hand"], ["image_file_name", "hand.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 1692], ["image_updated_at", "2015-04-19 16:37:03.729682"], ["user_id", 1], ["created_at", "2015-04-19 16:37:03.886694"], ["updated_at", "2015-04-19 16:37:03.886694"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pins/5
+Completed 302 Found in 227ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/pins/5" for ::1 at 2015-04-19 12:37:03 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPin Load (0.3ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pins/show.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 162ms (Views: 146.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:37:04 -0400
+
+
+Started GET "/pins/5" for ::1 at 2015-04-19 12:39:05 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPin Load (0.1ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:39:05 -0400
+
+
+Started GET "/pins" for ::1 at 2015-04-19 12:39:07 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 89ms (Views: 88.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/original/missing.png" for ::1 at 2015-04-19 12:39:07 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/original/missing.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (21.7ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (114.7ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (63.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (152.8ms)
+
+
+Started GET "/pins" for ::1 at 2015-04-19 12:39:56 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 71ms (Views: 69.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:39:56 -0400
+
+
+Started GET "/images/medium/missing.png" for ::1 at 2015-04-19 12:39:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (85.0ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (54.6ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (121.2ms)
+
+
+Started GET "/pins" for ::1 at 2015-04-19 12:39:59 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 66.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:39:59 -0400
+
+
+Started GET "/images/medium/missing.png" for ::1 at 2015-04-19 12:39:59 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (58.9ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (127.4ms)
+
+
+Started DELETE "/pins/1" for ::1 at 2015-04-19 12:40:21 -0400
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bvGHd1Lub5hiXCGLHyLa7wgD2ESau6iJf/rYYnPATCCxt11BJqx85mveVOO1B0aUXqw8qEnIY9JEM31WZ4CQNw==", "id"=>"1"}
+  [1m[36mPin Load (0.1ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1[0m  [["user_id", 1], ["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "pins" WHERE "pins"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/pins
+Completed 302 Found in 6ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/pins" for ::1 at 2015-04-19 12:40:21 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:40:22 -0400
+
+
+Started GET "/images/medium/missing.png" for ::1 at 2015-04-19 12:40:22 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (53.8ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (121.2ms)
+
+
+Started DELETE "/pins/4" for ::1 at 2015-04-19 12:40:26 -0400
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DRRlixJDYG2Mgt/xkBGw4yLmmGjETlAE6RRD59DNHZvSUr+9ZgFzE4UAqpk6NCyYdEl8hBc9m1/S3ebTxI3BjA==", "id"=>"4"}
+  [1m[36mPin Load (0.1ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPin Load (0.1ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1[0m  [["user_id", 1], ["id", 4]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "pins" WHERE "pins"."id" = ?[0m  [["id", 4]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/pins
+Completed 302 Found in 5ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/pins" for ::1 at 2015-04-19 12:40:26 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:40:26 -0400
+
+
+Started GET "/images/medium/missing.png" for ::1 at 2015-04-19 12:40:26 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (52.9ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (125.3ms)
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1[0m
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1
+
+
+Started GET "/pins" for ::1 at 2015-04-19 12:41:15 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:41:15 -0400
+
+
+Started GET "/images/medium/missing.png" for ::1 at 2015-04-19 12:41:15 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (58.1ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Adam/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (126.4ms)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 2]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 3]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/pins" for ::1 at 2015-04-19 12:41:48 -0400
+Processing by PinsController#index as HTML
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT "pins".* FROM "pins"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:41:48 -0400
+
+
+Started DELETE "/pins/5" for ::1 at 2015-04-19 12:42:31 -0400
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GnnKnXFHkiTw/cbBmjsmU2Bho0gAxtHzp4mC9ePAtJ7FPxCrBQWBWvl/s6kwHrooNs5HpNO1GqicQCfB94BoiQ==", "id"=>"5"}
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1  [["user_id", 1], ["id", 5]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 5]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+[paperclip] deleting /Users/Adam/Documents/Docs/Sites/pinteresting/public/system/pins/images/000/000/005/original/hand.jpg
+[paperclip] deleting /Users/Adam/Documents/Docs/Sites/pinteresting/public/system/pins/images/000/000/005/medium/hand.jpg
+[paperclip] deleting /Users/Adam/Documents/Docs/Sites/pinteresting/public/system/pins/images/000/000/005/thumb/hand.jpg
+Redirected to http://localhost:3000/pins
+Completed 302 Found in 13ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/pins" for ::1 at 2015-04-19 12:42:31 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.2ms)[0m  SELECT "pins".* FROM "pins"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:42:32 -0400
+
+
+Started GET "/pins/new" for ::1 at 2015-04-19 12:42:33 -0400
+Processing by PinsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pins/_form.html.erb (13.3ms)
+  Rendered pins/new.html.erb within layouts/application (15.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 75.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/pins" for ::1 at 2015-04-19 12:42:47 -0400
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kSDUx7G9dMkcjgXkRY0E0mXBGcNKhALWAgm6fosf5AxOZg7xxf9ntxUMcIzvqJipM279L5n3yY05wB9Kn184Gw==", "pin"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fa53c0ba7f0 @tempfile=#<Tempfile:/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/RackMultipart20150419-2138-vmr4fg.png>, @original_filename="appstore.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"appstore.png\"\r\nContent-Type: image/png\r\n">, "description"=>"App"}, "commit"=>"Create Pin"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/993c8004ae7ccaa3f7a4a8bc8e3e4b5320150419-2138-5pwld8.png'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/993c8004ae7ccaa3f7a4a8bc8e3e4b5320150419-2138-jydiuc.png[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/993c8004ae7ccaa3f7a4a8bc8e3e4b5320150419-2138-jydiuc.png[0]'
+Command :: convert '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/993c8004ae7ccaa3f7a4a8bc8e3e4b5320150419-2138-jydiuc.png[0]' -auto-orient -resize "300x300>" '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/d7e2712e8a67df728b73dcfacf9df10c20150419-2138-7uhpj4'
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/d7e2712e8a67df728b73dcfacf9df10c20150419-2138-7uhpj4'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/993c8004ae7ccaa3f7a4a8bc8e3e4b5320150419-2138-jydiuc.png[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/993c8004ae7ccaa3f7a4a8bc8e3e4b5320150419-2138-jydiuc.png[0]'
+Command :: convert '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/993c8004ae7ccaa3f7a4a8bc8e3e4b5320150419-2138-jydiuc.png[0]' -auto-orient -resize "100x100>" '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/d7e2712e8a67df728b73dcfacf9df10c20150419-2138-p3olot'
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/d7e2712e8a67df728b73dcfacf9df10c20150419-2138-p3olot'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/var/folders/zp/yhsw0czd5dg1pjp7rl9zfk280000gn/T/993c8004ae7ccaa3f7a4a8bc8e3e4b5320150419-2138-onyyrv.png'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pins" ("description", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["description", "App"], ["image_file_name", "appstore.png"], ["image_content_type", "image/png"], ["image_file_size", 32612], ["image_updated_at", "2015-04-19 16:42:47.495452"], ["user_id", 1], ["created_at", "2015-04-19 16:42:47.613003"], ["updated_at", "2015-04-19 16:42:47.613003"]]
+  [1m[35m (1.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/pins/6
+Completed 302 Found in 148ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/pins/6" for ::1 at 2015-04-19 12:42:47 -0400
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pins/show.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 80ms (Views: 78.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap_and_custom-e5f6833e8bb313fb7380418a6e931770.css?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/assets/pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/assets/pins-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/assets/application-55c678d5f2997d32459f101062428a84.css?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/assets/bootstrap-6a37dea4509abab7d69e1de01fa44f76.js?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/assets/pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/assets/pins-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/assets/application-80792237d4e21d5f07ac77c7feb63981.js?body=1" for ::1 at 2015-04-19 12:42:47 -0400
+
+
+Started GET "/pins" for ::1 at 2015-04-19 12:42:50 -0400
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.1ms)[0m  SELECT "pins".* FROM "pins"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pins/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.3ms)
