@@ -9,6 +9,8 @@ $navbar-default-link-hover-color:   #eee;
 $jumbotron-bg:                      #ecf0f1;
 $brand-primary:                     #34495e;
 
+
+@import 'bootstrap-sprockets';
 @import 'bootstrap' ;
 
 .center {
